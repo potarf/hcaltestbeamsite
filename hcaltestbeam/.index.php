@@ -35,7 +35,7 @@
                         <div class="col-md-3">$analysisref</div>
                         <div class="col-md-3">$status</div>
                         <div class="col-md-3">$datetaken</div>
-                    </div>")
+                    </div>");
         }
 
 
