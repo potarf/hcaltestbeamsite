@@ -29,14 +29,14 @@
         $status="Good";
         $datetaken="2017-02-29";
 
-        for($index=0; $index < 5; $index++){
-            print("        <div class="row">
-                        <div class="col-md-3">$runnum<small>(detail)</small></div>
-                        <div class="col-md-3">$analysisref</div>
-                        <div class="col-md-3">$status</div>
-                        <div class="col-md-3">$datetaken</div>
-                    </div>");
-        }
+        // for($index=0; $index < 5; $index++){
+        //     print("        <div class="row">
+        //                 <div class="col-md-3">$runnum<small>(detail)</small></div>
+        //                 <div class="col-md-3">$analysisref</div>
+        //                 <div class="col-md-3">$status</div>
+        //                 <div class="col-md-3">$datetaken</div>
+        //             </div>");
+        // }
 
 
         ?>
