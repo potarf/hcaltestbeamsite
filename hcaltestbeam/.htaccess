@@ -1,1 +1,8 @@
 DirectoryIndex .index.php index.html
+SSLRequireSSL # The modules only work using HTTPS
+AuthType shibboleth
+ShibRequireSession On
+ShibRequireAll On
+ShibExportAssertion Off
+
+Require valid-user

@@ -1,0 +1,3 @@
+tget HE1-[1-4]-rtdtemperature_f fnr
+tget HE1-[1-4]-humidityS_f fnr
+tget HE1-[1-4]-PeltierVoltage_f fnr

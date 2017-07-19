@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Directory Contents</title>
-  <link rel="stylesheet" href=".style.css">
   <script src=".sorttable.js"></script>
+
+  <?php readfile(".src/loadflatui_d0.html"); ?>
+  <link rel="stylesheet" href=".src/style.css">
 </head>
 
 <body>
-
-  <div id="container">
-  
+  <div id="container"> 
     <h1>Directory Contents</h1>
-    
+    <h4><?php readfile(".README.txt"); ?></h4>
     <table class="sortable">
       <thead>
         <tr>
