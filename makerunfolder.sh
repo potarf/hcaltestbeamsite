@@ -1,5 +1,7 @@
 #!/bin/bash
-for run in $(ls hcaltestbeam/rawdata/ | sed -n 's/HTB_//' | sed -n 's/.root//'); do
-    echo $run
+for run in $(ls hcaltestbeam/rawdata | sed 's/HTB_\(.*\)\.root/\1/'); do
+  if [ ! -d "hcaltestbeam/runs/$run" ]; then
+    mkdir hcaltestbeam/runs/$run
+  fi
 done
 
